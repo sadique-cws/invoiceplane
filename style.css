@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    font-family:sans-serif;
+}
+.header{
+    background-color: #429ae1;
+    flex:1;
+    padding: 20px 40px;
+    position: fixed;
+    width: 95%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+.header>.links{
+    flex: 2;
+    display: flex;
+    gap:20px;
+    margin-left: 100px;
+}
+.header>.download{
+    flex:1;
+}
+.header a{
+    color:rgb(243, 243, 243);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+}
+.header a:hover{
+    color:white;
+}
+.demo{
+    color:rgb(199, 199, 199)!important;
+}
+.cover{
+    flex: 1;
+    display: flex;
+    background-image: url("bg.jpg");
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+}
+.container .box{
+    width: 45%;
+    background-color: #429ae1;
+    color:White;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+.box p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    min-width:40%;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+.cols{
+    display: flex;
+    padding: 10%;
+    gap:20px;
+    flex-wrap: wrap;
+
+}
+.col>img{
+    width: 15%;
+    margin:0 auto;
+}
+.lastIcon{
+    width: 10%!important;
+}
+.bgImage{
+    flex:1;
+    height: 510px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg1.jpg") center center no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.dabba{
+    background-color: white;
+    height: 350px;
+    text-align: center;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 50px;
+}
+.btn{
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+.box1{
+    flex:1;
+   
+}
+
+.box2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.box2>span{
+    font-size: 22px;
+    width: 30%;
+    font-weight: 600;
+}
+.green{
+    background-color: #48BB78;
+}
+.blue{
+    border:1px solid #429ae1;
+    color: #429ae1 !important;
+    font-size: 30px!important;
+}
+.blue:hover{
+    background-color: #429ae1;
+    color: white!important;
+}
